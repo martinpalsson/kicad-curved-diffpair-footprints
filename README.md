@@ -1,5 +1,5 @@
 # kicad-curved-diffpair-footprints
-Python scripts for creating kicad footprints of diffpair segments featuring curves.
+Python scripts for creating kicad footprints of diffpair segments featuring curves, keeping control of length, not causing uncontrollable skew, and maintaining as constant as possible controlled impedance throughout the length of the differential pair.
 ![alt text](https://github.com/martinpalsson/kicad-curved-diffpair-footprints/blob/main/images/inspiration.png "USB 3.2 gen 1 with curved differential pairs.")
 
 ## Installation
