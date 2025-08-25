@@ -1,0 +1,143 @@
+(footprint "dp_strafe_right_w0.2_g0.2_offs4.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "differential pair strafe/offset to the right, trae width: 0.2 mm trace gap 0.2 mm offset 4.0 mm")
+	(property "Reference" "REF**"
+		(at 0.1 1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b4a36311-6d71-486d-bc23-62c1357e4150")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1e05d69e-4140-496b-ba5d-1f740321827b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65d6a7f7-10aa-4cba-ad3e-c6f0fde7be11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "dp_strafe_right_w0.2_g0.2_offs4.0mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73436d0d-d29f-40dc-bf6c-707f91a8e068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "092647df-05d1-40ca-8e8f-08bd4a0f5fa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 3.8000000000000003 -4.3922102650876935)
+		(size 0.2 0.2)
+		(layers F.Cu)
+		(uuid "09ef0b2e-ebcc-4f20-91af-e68d4ade103a")
+	)
+	(pad "2" smd circle
+		(at 4.2 -4.392210265087694)
+		(size 0.2 0.2)
+		(layers F.Cu)
+		(uuid "db6bc23c-3285-4b26-b97a-ba266a11b66a")
+	)
+	(pad "1" smd custom
+		(at -0.2 -0.0)
+		(size 0.2 0.2)
+		(layers F.Cu)
+		(die_length -3.4311429535467513)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start 5.551115123125783e-17 -9.797174393178826e-17)
+				(mid 0.06315120479769193 -0.31153467384692046)
+				(end 0.24263463252226763 -0.5738848727196181)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 4.0 -4.3922102650876935)
+				(mid 3.9684243976011544 -4.236442928164234)
+				(end 3.878682683738867 -4.105267828727884)
+				(width 0.2)
+			)
+			(gr_line
+				(start 0.24263463252226763 -0.5738848727196181)
+				(end 3.878682683738867 -4.105267828727885)
+				(width 0.2)
+			)
+		)
+		(uuid "5ee59a21-5fe7-4f65-91c9-3bffcd77c66c")
+	)
+	(pad "2" smd custom
+		(at 0.2 -0.0)
+		(size 0.2 0.2)
+		(layers F.Cu)
+		(die_length -3.4311429535467513)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start 5.551115123125783e-17 -4.898587196589413e-17)
+				(mid 0.03157560239884599 -0.15576733692346023)
+				(end 0.12131731626113385 -0.28694243635980904)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 4.0 -4.392210265087694)
+				(mid 3.936848795202308 -4.080675591240774)
+				(end 3.7573653674777328 -3.8183253923680764)
+				(width 0.2)
+			)
+			(gr_line
+				(start 0.12131731626113385 -0.28694243635980904)
+				(end 3.7573653674777328 -3.818325392368076)
+				(width 0.2)
+			)
+		)
+		(uuid "c0d7d54d-1a2a-44d6-89e8-dc8ef6711f7c")
+	)
+	(embedded_fonts no)
+)
