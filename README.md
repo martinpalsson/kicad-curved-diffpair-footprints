@@ -1,6 +1,6 @@
 # kicad-curved-diffpair-footprints
 Python scripts for creating kicad footprints of diffpair segments featuring curves.
-![alt text](https://github.com/martinpalsson/kicad-curved-diffpair-footprints/images/inspiration.png "USB 3.2 gen 1 with curved differential pairs.")
+![alt text](https://github.com/martinpalsson/kicad-curved-diffpair-footprints/blob/main/images/inspiration.png "USB 3.2 gen 1 with curved differential pairs.")
 
 ## Installation
 Create a virtual environment and install all required libraries
@@ -18,10 +18,10 @@ Generated footprint: dp_strafe_right_w0.2_g0.2_offs4.0mm.kicad_mod
 ```
 
 The preview will be displayed, the preview will look something like this:
-![alt text](https://github.com/martinpalsson/kicad-curved-diffpair-footprints/images/example_visualized.png "Visualization of strafe curve")
+![alt text](https://github.com/martinpalsson/kicad-curved-diffpair-footprints/blob/main/images/example_visualized.png "Visualization of strafe curve")
 
 The footprint will look like this in Kicad footprint editor:
-![alt text](https://github.com/martinpalsson/kicad-curved-diffpair-footprints/images/example_footprint.png "Footprint open in Kicad footprint editor")
+![alt text](https://github.com/martinpalsson/kicad-curved-diffpair-footprints/blob/main/images/example_footprint.png "Footprint open in Kicad footprint editor")
 
 ### Strafe
 Curve resulting in an offsite to the side, while keeping the same heading. This type of curve is length-symmetrical i.e. does not cause skew in the diffpair.
